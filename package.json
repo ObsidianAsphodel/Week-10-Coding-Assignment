@@ -1,0 +1,19 @@
+{
+  "name": "week-10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Week 10 Coding Assignment"
+  },
+  "author": "Obsidian Asphodel",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  }
+}
