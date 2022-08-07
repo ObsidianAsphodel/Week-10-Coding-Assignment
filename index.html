@@ -13,43 +13,19 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4 bg-dark"></div>
-            <div class="col-lg-4 bg-dark text-white fw-bold">
+            <div class="col-lg-6 bg-dark"></div>
+            <div class="col-lg-6 bg-dark text-white fw-bold">
                 Table
             </div>
-            <div class="col-lg-4 bg-dark"></div>
         </div>
     </div>
-    <table class="table table-dark">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-            </tr>
-        </tbody>
+    <table class="table table-dark" id="list">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
     </table>
-    <form>
+    <form class="bg-opacity-50 bg-dark">
         <div class="form-row">
             <div class="col-lg-4">
                 <input type="text" name="first-name" id="first-name" placeholder="First Name">
@@ -57,19 +33,20 @@
             <div class="col-lg-4">
                 <input type="text" name="last-name" id="last-name" placeholder="Last Name">
             </div>
-            <div class="col-lg-4">
-                <input type="text" name="handle" id="handle-name" placeholder="Handle">
-            </div>
+            <br>
             <div class="form-group row">
                 <div class="col-sm-10">
-                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <button class="btn btn-primary" id='add'>Add</button>
                 </div>
             </div>
         </div>
     </form>
+    <div>
+        <p id="content">Content</p>
+    </div>
+    <script src="script.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="script.js"></script>
 </body>
 
 </html>
